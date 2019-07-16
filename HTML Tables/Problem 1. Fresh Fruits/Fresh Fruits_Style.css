@@ -1,0 +1,46 @@
+﻿body {
+}
+
+img {
+    width: 9em;
+}
+
+.fruits {
+    border: 2px outset;
+    width: 160px;    
+}
+
+.col {
+    border: 1px inset;
+    
+}
+
+#a {
+    text-align: center;
+    padding: 6px;
+}
+
+#b {
+    text-align: right;
+    padding: 6px;
+    
+}
+
+#d, #e, #f, #h, #i, #k, #l, #m, #o {
+    text-align: center;
+}
+
+#g, #n {
+    text-align: right;
+}
+
+#c {
+    text-align: left;
+}
+
+#j {
+    padding-top: 20px;
+    text-align: right;
+   
+}
+

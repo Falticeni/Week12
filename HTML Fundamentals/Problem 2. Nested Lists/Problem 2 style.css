@@ -1,0 +1,27 @@
+﻿body {
+    font-weight: bold
+}
+
+.upper_roman {
+    list-style: upper-roman
+}
+
+.lower_latin {
+    list-style: lower-latin
+}
+
+.decimal {
+    list-style: decimal
+}
+
+.circle {
+    list-style: circle
+}
+
+.square {
+    list-style: square
+}
+
+.disc {
+    list-style: disc
+}

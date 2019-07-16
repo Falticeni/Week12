@@ -1,0 +1,33 @@
+﻿.table1 {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.table2 {
+    border: 2px solid black;
+    text-align: center;
+}
+
+a {
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #0094FF;
+    margin-right: 2px;
+}
+
+.laptop {
+    border: 2px solid black;
+    float: left;
+}
+
+#pret {
+    padding: 30px;
+    padding-left: 60px;
+    float: left;
+}
+
+    #pret td {
+        width: 200px;
+        height: 40px;
+    }

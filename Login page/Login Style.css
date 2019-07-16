@@ -1,0 +1,19 @@
+﻿body {
+    background-color: #ADD8E6;
+}
+
+.less {
+    font-style: italic;
+    color: brown;
+    font: 200;
+    font-size: medium;
+}
+
+.bold {
+    font-weight: bold
+}
+
+.login {
+    font-size: 27px;
+    font-weight: bold;
+}

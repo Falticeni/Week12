@@ -1,0 +1,33 @@
+﻿#table, td {
+    border: 1px solid;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+.minWidth {
+    width: 50px;
+}
+
+.smallWidth {
+    width: 60px;
+}
+
+.fullWidth {
+    width: 90%;
+}
+
+#foot {
+    background: #D1EDE1;
+}
+
+    #foot input {
+        width: 20%;
+        margin: 2px 0px 2px 100px;
+        height: 20px;
+    }

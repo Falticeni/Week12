@@ -1,0 +1,10 @@
+﻿.bold {
+    font-weight: bold;
+}
+
+.submitButton {
+    background: url("Images/Submit.jpg") no-repeat;
+    border: none;
+    width: 65px;
+    height: 100px;
+}

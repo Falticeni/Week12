@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="Registration form_Style.css" />
+</head>
+
+<body>
+    <form>
+        <table class="bold">
+
+            <tbody>
+                <tr>
+                    <td><label>Last name</label></td>
+                    <td><input class="fullWidth" value="Nakov" /></td>
+                </tr>
+                <tr>
+                    <td><label>First name</label></td>
+                    <td><input class="fullWidth" value="Svetlin" /></td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td>
+                        <textarea rows="3" class="fullWidth" placeholder="17 Hristo Botev Str.
+floor 3, apt. 12"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>City</label></td>
+                    <td>
+                        <input value="Kaspichan" />
+                        <label for="5">State</label>
+                        <input class="smallWidth" />
+                    </td>
+                <tr>
+                    <td><label>Zip/Postal Code</label></td>
+                    <td><input class="smallWidth" value="9325" /></td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td>
+                        <select class="fullWidth">
+                            <option>Bulgaria</option>
+                            <option>Romania</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Phone</label></td>
+                    <td>
+                        +(<input class="smallWidth" value="359" /> )
+                        <input class="smallWidth" value="88" /> -
+                        <input class="smallWidth" value="8334343" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label > E-mail </label>
+                    </td>
+                    <td>
+                        <input value="nakov@kaspichan.org" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Birth Date</label></td>
+                    <td>
+                        Month <input  class="minWidth" value="06" />
+                        Day <input class="minWidth" value="14" />
+                        Year (4 digit) <input class="smallWidth" value="1980" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <select class="fullWidth">
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Starting date</label></td>
+                    <td>
+                        <input type="radio" value="Spring" />Spring 2006
+                        <input type="radio" value="Summer" />Summer 2006
+                    </td>
+                </tr>
+                <tr>
+                    <td><label >Comments/Questions</label></td>
+                    <td>
+                        <textarea  rows="5" class="fullWidth" placeholder="Please send me more information
+about the lodging."></textarea>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2" id="foot">
+                        <input type="submit" value="Submit" />
+                        <input type="button" value="Clear this Form" />
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </form>
+</body>
+
+</html>
